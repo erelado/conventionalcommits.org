@@ -437,6 +437,7 @@ languages:
   ar:
     weight: 24
     languageName: "العربية"
+    languageDirection: rtl
     title: Conventional Commits
     description: إضافة معنى قابل للقراءة من قبل الإنسان والآلة إلى رسائل الـ commit.
     actions:
@@ -450,7 +451,6 @@ languages:
       current: v1.0.0
       list:
         - v1.0.0
-    rtl: true
 
   ta:
     weight: 20
@@ -472,6 +472,7 @@ languages:
   pr:
     weight: 26
     languageName: "فارسی"
+    languageDirection: rtl
     title: Conventional Commits
     description: مشخصات برای اضافه کردن معانی خوانا برای اسنان و ماشین به پیام های کامیت
     actions:
@@ -485,4 +486,21 @@ languages:
       current: v1.0.0
       list:
         - v1.0.0
-    rtl: true
+
+  he:
+    weight: 27
+    languageName: "עברית"
+    languageDirection: rtl
+    title: Conventional Commits
+    description: מפרט להוספת משמעות קריאה לבני אדם ולמכונות להודעות commit
+    actions:
+      - label: סיכום מהיר
+        url: "#סיכום"
+      - label: המפרט המלא
+        url: "#המפרט"
+      - label: תרומה לפרויקט
+        url: "https://github.com/conventional-commits/conventionalcommits.org"
+    versions:
+      current: v1.0.0
+      list:
+        - v1.0.0
