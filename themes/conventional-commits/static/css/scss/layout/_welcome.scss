@@ -28,10 +28,10 @@
     color: $color-neutral-light;
     width: 100%;
     max-width: $desktop-width;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: $gap-md;
-    padding-right: $gap-md;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding-inline-start: $gap-md;
+    padding-inline-end: $gap-md;
   }
 
   &__title {
@@ -69,7 +69,7 @@
     line-height: 1.5;
     color: $welcome-action-color;
     border: 1px solid $welcome-action-color;
-    margin-right: $gap-md;
+    margin-inline-end: $gap-md;
     margin-bottom: $gap-md;
     transition: background-color .3s ease, color .3s ease;
     min-width: fit-content;
@@ -93,7 +93,7 @@
     z-index: -1;
     position: absolute;
     top: 50%;
-    right: 0;
+    inset-inline-end: 0;
     height: 70%;
     width: 24%;
     overflow: hidden;
@@ -105,12 +105,6 @@
       max-width: 200px;
       max-height: 100%;
     }
-  }
-
-  // Override for RTL layout if RTL is enabled
-  .rtl__image {
-    right: auto !important;
-    left: 0;
   }
 }
 

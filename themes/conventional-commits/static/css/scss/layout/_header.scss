@@ -4,7 +4,7 @@
   position: absolute;
   z-index: 10;
   top: 12px;
-  left: 0;
+  inset-inline-start: 0;
   width: 100%;
 
   .container {
@@ -29,14 +29,14 @@
     display: flex;
     color: $color-neutral-light;
     list-style: none;
-    margin-left: $gap-sm * 2;
+    margin-inline-start: $gap-sm * 2;
   }
 
   &__menu-item {
-    margin-right: $gap-sm;
+    margin-inline-end: $gap-sm;
 
     &:last-child {
-      margin-right: 0;
+      margin-inline-end: 0;
     }
   }
 }
@@ -58,7 +58,7 @@
     }
 
     &__menu-item {
-      margin-right: 0;
+      margin-inline-end: 0;
     }
   }
 }
