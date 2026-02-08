@@ -11,4 +11,8 @@ main article.markdown-body {
   a.anchorjs-link:hover {
     text-decoration: none;
   }
+  ol,
+  ul {
+    padding-inline-start: 2em;
+  }
 }
